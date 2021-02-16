@@ -8,6 +8,7 @@ html, body, div, span, p, a, ul, li{
     border: 0;
     font-size: 100%;
     vertical-align: baseline;
+    padding: 0;
 }
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -39,7 +40,7 @@ body {
     width:80%;
     min-height: 1000px;
 }
-#main p, a {
+#main p{
     margin-left: 10%;
     margin-right: 10%;
 }
