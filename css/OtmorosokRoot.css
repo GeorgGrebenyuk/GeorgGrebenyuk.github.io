@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+html, body, div, span, p, a, ul, li{
+                 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+body {
+    font-family:"DIN Next W1G Light";
+    background: radial-gradient(#B0E0E6,#87CEFA);
+}
+.gradient {
+    background-color: #B0E0E6;
+    padding: 15px;
+    border: 1px solid #333;
+    text-align: center;
+}
+.gotoblog{
+    font-size:30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align:justify;
+    text-decoration: none;
+}
+
+#main{
+    margin-left: 10%;
+    margin-right:10%;
+    padding: 0px 10px 0px 15px;
+    width:80%;
+    min-height: 820px;
+    
+}
+
+#main p {
+    font-size:18px;
+    text-indent: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align:justify;
+    
+}
+.about{
+    font-size:18px;
+    text-indent: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align:justify;
+}
+.topics{
+    font-size:20px;
+    text-align:justify;
+}
+
+#bottomside{ 
+    background-color:antiquewhite;
+    border-top: 1px solid #ccc;
+    font-size: .8em;    
+    text-align: center;
+    padding: 10px 10px 30px 10px;
+}ps;30
