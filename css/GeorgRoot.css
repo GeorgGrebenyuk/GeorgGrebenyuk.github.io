@@ -11,7 +11,7 @@ html, body, div, span, p, a, ul, li{
 }
 body {
     font-family:"DIN Next W1G Light";
-    background-color: beige;
+    background: radial-gradient(#98FB98,#FFE4B5);
 }
 .gradient {
     background-color: floralwhite;
@@ -24,11 +24,10 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     text-align:justify;
+    text-decoration: none;
 }
 
 #main{
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
     margin-left: 10%;
     margin-right:10%;
     padding: 0px 10px 0px 15px;
@@ -36,13 +35,25 @@ body {
     min-height: 820px;
     
 }
+
 #main p {
     font-size:18px;
     text-indent: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align:justify;
     
+}
+.about{
+    font-size:18px;
+    text-indent: 50px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align:justify;
+}
+.topics{
+    font-size:20px;
+    text-align:justify;
 }
 
 #bottomside{ 
