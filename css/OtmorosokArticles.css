@@ -56,9 +56,12 @@ body {
 
 
 #bottomside{ 
+    position:relative;
+    margin:10px auto 0;
+    width: 100%;
     background-color:antiquewhite;
     border-top: 1px solid #ccc;
     font-size: .8em;    
     text-align: center;
-    padding: 10px 10px 30px 10px;
-}ps;30
+    padding: 10px 10px 10px 10px;
+}
