@@ -11,7 +11,7 @@ html, body, div, span, p, a, ul, li{
 }
 body {
     font-family:"DIN Next W1G Light";
-    background: radial-gradient(#B0E0E6,#87CEFA);
+    background: radial-gradient(#B0E0E6,#E0FFFF);
 }
 .gradient {
     background-color: #B0E0E6;
