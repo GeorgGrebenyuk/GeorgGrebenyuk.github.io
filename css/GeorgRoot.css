@@ -12,6 +12,8 @@ html, body, div, span, p, a, ul, li{
 body {
     font-family:"DIN Next W1G Light";
     background: radial-gradient(#98FB98,#FFE4B5);
+    height: 100%;
+min-height: 100%;
 }
 .gradient {
     background-color: floralwhite;
@@ -32,6 +34,8 @@ body {
     margin-right:10%;
     padding: 0px 10px 0px 15px;
     width:80%;
+    height: 100%;
+min-height: 100%;
     
 }
 
@@ -57,11 +61,12 @@ body {
 
 #bottomside{ 
     position:relative;
-    margin:10px auto 0;
+    left:0px;
+    bottom:-20px;
     width: 100%;
     background-color:antiquewhite;
     border-top: 1px solid #ccc;
     font-size: .8em;    
     text-align: center;
-    padding: 10px 10px 30px 10px;
-}ps;30
+    padding: 10px 10px 10px 10px;
+}

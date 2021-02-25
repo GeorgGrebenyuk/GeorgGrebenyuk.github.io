@@ -43,6 +43,13 @@ body {
     text-align:justify;
     
 }
+#main ul, ol {
+    font-size:18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align:justify;
+    
+}
 #main h1,h2,h3,h4{
     text-align:center;
     margin-left: 5%;
@@ -56,7 +63,8 @@ body {
 
 #bottomside{ 
     position:relative;
-    margin:10px auto 0;
+    left:0px;
+    bottom:-20px;
     width: 100%;
     background-color:antiquewhite;
     border-top: 1px solid #ccc;

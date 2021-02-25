@@ -7,13 +7,14 @@ html, body, div, span, p, a, ul, li{
     padding: 0;
     border: 0;
     font-size: 100%;
+    vertical-align: baseline;
 }
 body {
     font-family:"DIN Next W1G Light";
-    background-color: beige;
+    background: radial-gradient(#98FB98,#FFE4B5);
 }
 .gradient {
-    background-color: floralwhite;
+    background-color: #B0E0E6;
     padding: 15px;
     border: 1px solid #333;
     text-align: center;
@@ -23,24 +24,42 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     text-align:justify;
+    text-decoration: none;
 }
 
 #main{
-
     margin-left: 10%;
     margin-right:10%;
     padding: 0px 10px 0px 15px;
     width:80%;
     
 }
+
 #main p {
     font-size:18px;
     text-indent: 50px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
     text-align:justify;
     
 }
+#main ul, ol {
+    font-size:18px;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align:justify;
+    
+}
+#main h1,h2,h3,h4{
+    text-align:center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#main h5{
+    text-align: right;
+    margin-left: 5%;
+}
+
 
 #bottomside{ 
     position:relative;
